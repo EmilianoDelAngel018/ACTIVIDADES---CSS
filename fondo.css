@@ -1,0 +1,12 @@
+body{
+    /*
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRasZwkRrpgz2On4OAKE05NG6znqeC9RP6NrOAsQauP689ddhG1dS3c1U-hMU6Hk0j-t38&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: contain; /*cubre el 100% de mi 
+    contenido vertical y el cover cubretodo el sitio web*/
+    /*background-position: center center;
+    background-attachment: scroll;*/
+
+    background: url(https://i.pinimg.com/736x/c0/8e/31/c08e318f68544c54f12299c0246ae981.jpg) no-repeat center center fixed;
+    background-size: 200px;
+}

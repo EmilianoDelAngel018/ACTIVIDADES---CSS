@@ -1,0 +1,92 @@
+body{
+    font-family:monospace;
+    background-color: rgb(156, 156, 156);
+}
+h1{
+    text-shadow:0 0 5px red;
+    font-size:55px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: fantasy;
+    color: rgb(48, 48, 48);
+}
+h1:hover{
+    text-shadow: 0 0 5px rgb(184, 184, 184);
+    color: black;
+    
+}
+nav{
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 10px 5px 10px;
+    font-size: x-large;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    float: unset;
+    border-radius: 10px;
+}
+article{
+    float: left;
+    width: 21.5%;
+    text-align: center;
+    padding: 1.1%;
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin: 3px;
+    border: solid 0.5px black;
+}
+article:hover{
+    scale: 1.1;
+    
+}
+
+
+@media (max-width:700px){
+    body{
+        font-family:monospace;
+        background-color: rgb(47, 55, 80);
+    }
+    nav{
+        background-color: rgb(197, 197, 197);
+        border-radius: 10px;
+        padding: 10px;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(46, 49, 85);
+        font-size: small;
+        border-radius: 10px;  
+    }
+    h1{
+        text-shadow:0 0 5px rgb(253, 253, 253);
+        font-size:55px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: fantasy;
+        color: rgb(48, 48, 48);
+    }
+    article{
+        width: 80%;
+        background-color: rgb(77, 82, 114);
+        border-radius: 20px;
+        margin: 20px 10% 5px 10%; 
+        border: solid 0.5px rgb(204, 204, 204);
+        color: aliceblue;
+    }
+    h2{
+        color: rgb(192, 192, 192);
+        text-shadow:0 0 5px rgb(16, 13, 177) ;
+    }
+
+}
+

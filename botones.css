@@ -1,0 +1,48 @@
+body{
+    background: #f2f2f2;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+div{
+    margin: 20px 0px;
+}
+.btn{
+    background: #470505;
+    color: bisque;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 10px;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.small{
+    font-size: 15px;
+    padding: 10px 15px;
+}
+.medium{
+    font-size: 18px;
+    padding: 12px 20px;
+}
+.big{
+    font-size: 20x;
+    padding: 15px 25px;
+}
+.extra-big{
+    font-size: 25x;
+    padding: 20px 30px;
+}
+.btn:hover{
+    opacity: 0.5; /*Rango de 0 a 1 donde cero es
+    desaparecer el elemento y 1 es dejarlo en su 
+    estado normal*/
+}
+.verde{
+    background: rgb(67, 224, 67);
+}
+.naranja{
+    background: orangered;
+}
+.azul{
+    background: blue;
+}

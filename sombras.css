@@ -1,0 +1,29 @@
+/*body{
+    background: rgb(247, 137, 137);
+}
+h1{
+    text-shadow: 2px 5px 2px red;
+}
+.profundidad{
+    color: white;
+    text-shadow: 2px 5px 2px #000;
+}
+h3{
+    text-shadow: 0 0 6px #ffd000;
+}*/
+
+.card{
+    width: 250px;
+    text-align: center;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);;
+
+}
+.header{
+    color: white;
+    background: rgb(128, 192, 128);
+    font-size:25px;
+    padding: 10px;
+}
+.contenedor{
+    padding: 10px;
+}
